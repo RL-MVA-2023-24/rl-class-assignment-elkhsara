@@ -5,7 +5,6 @@ import numpy as np
 import torch
 import torch.nn as nn
 from copy import deepcopy
-import matplotlib.pyplot as plt
 import random
 import os
 
@@ -254,6 +253,6 @@ def seed_everything(seed: int = 42):
 #seed_everything(seed=42)
 #agent = ProjectAgent()
 #print("Start training")
-#ep_length, disc_rewards, tot_rewards, V0 = agent.train(env, 250)
+#ep_length, disc_rewards, tot_rewards, V0 = agent.train(env, 200)
 #agent.save("./last_DQN.pt")
 #print("Training done")
